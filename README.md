@@ -4,4 +4,4 @@ Python projects
 This project was created for personal education purposes
 
 credits:
-freecodecamp youtube cahnnel
+freecodecamp youtube channel
