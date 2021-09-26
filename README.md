@@ -1,5 +1,5 @@
-# AIVirtualMouse
-Virtual mouse application - mouse control with hand gestures
+# Python
+Python projects
 
 This project was created for personal education purposes
 
