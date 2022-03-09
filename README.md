@@ -4,7 +4,7 @@ This project was created for personal education purposes
 
 subfolders are using libraries from their parent folders
 
-Projects:
+### Projects:
 - Body Detection
 - Face Detection
 - Face Mesh Detection
