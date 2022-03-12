@@ -35,7 +35,7 @@ while(True):
     item_color_3 = cv.bitwise_and(cut, cut, mask = mask_color_3)
     item_color_4 = cv.bitwise_and(cut, cut, mask = mask_color_4)
     
-    cv.putText(item_color_1, str(feat_colord_1), (50, 50), 1, 2,
+    cv.putText(item_color_1, str(feat_color_1), (50, 50), 1, 2,
                [255, 255, 255], 1)
     cv.putText(item_color_2, str(feat_color_2), (50, 50), 1, 2,
                 [255, 255, 255], 1)
