@@ -20,7 +20,7 @@ while(True):
     lower_color_bound_4 = np.array([25, 50, 50]) #yellow min
     upper_color_bound_4 = np.array([30, 255, 255]) #yellow max
     
-    mask_color_1 = cv.inRange(hsv, lower_color_bound_1, uupper_color_bound_1)
+    mask_color_1 = cv.inRange(hsv, lower_color_bound_1, upper_color_bound_1)
     mask_color_2 = cv.inRange(hsv, lower_color_bound_2, upper_color_bound_2)
     mask_color_3 = cv.inRange(hsv, lower_color_bound_3, upper_color_bound_3)
     mask_color_4 = cv.inRange(hsv, lower_color_bound_4, upper_color_bound_4)
