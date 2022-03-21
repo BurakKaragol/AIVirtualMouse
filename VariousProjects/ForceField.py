@@ -155,9 +155,9 @@ def CalculateIndex(x, y):
     if x == 0:
         node_selected_index = y
     elif y == 0:
-        node_selected_index = 8 * x
+        node_selected_index = node_number * x
     else:
-        node_selected_index = 8 * x + y
+        node_selected_index = node_number * x + y
     
     return node_selected_index
 
